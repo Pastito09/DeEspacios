@@ -1,0 +1,9 @@
+.Chatbot {
+  *,
+  *::before,
+  *::after {
+    box-sizing: content-box;
+  }
+
+  font-family: inherit;
+}

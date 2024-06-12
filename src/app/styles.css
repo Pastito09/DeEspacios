@@ -1,0 +1,137 @@
+/* @import '~bootstrap/scss/bootstrap'; */
+
+.App {
+  text-align: center;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.traba {
+  height: 88%;
+  background-color: gold;
+}
+.section-text {
+  font-size: 18px;
+  text-align: start;
+  color: rgb(101, 101, 101);
+  margin-right: 1em;
+
+  h2 {
+    padding-top: 10px;
+    color: rgb(94, 24, 125);
+  }
+
+  h3 {
+    color: rgb(75, 159, 153);
+    font-size: 18px;
+  }
+}
+
+.text-violet {
+  color: rgb(94, 24, 125);
+} /*
+blockquote {
+  position: relative; 
+  display: inline-block; 
+  padding-right: 1.5em; 
+}
+
+blockquote p {
+  margin: 0; 
+}
+
+blockquote::after {
+  font-family: Arial;
+  content: '\201D'; 
+  color: #78c0a8;
+  font-size: 3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 1000px) {
+  blockquote::after {
+    display: none;
+  }
+}
+*/
+blockquote {
+  padding: 1.2em 30px 1.2em 50px;
+  border-left: 8px solid #78c0a8;
+  background: #ededed;
+  font-style: italic;
+  position: relative;
+  font-weight: 500;
+  text-align: start;
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: '\201C';
+  color: #78c0a8;
+  font-size: 3em;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 20px;
+}
+blockquote::after {
+  font-family: Arial;
+  content: '\201D';
+  color: #78c0a8;
+  font-size: 3em;
+  position: absolute;
+  bottom: -15px;
+  right: inherit;
+}
+
+ul.nombres {
+  list-style-type: none;
+  color: rgb(75, 159, 153);
+  text-align: center;
+}
+
+.img-directoras {
+  width: 370px;
+}
+
+.bio-title {
+  color: rgb(75, 159, 153);
+}
+.TooltipContent {
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 1;
+  color: var(--violet-11);
+  background-color: white;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px,
+    hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  user-select: none;
+  animation-duration: 400ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+.TooltipContent[data-state='delayed-open'][data-side='top'] {
+  animation-name: slideDownAndFade;
+}
+.TooltipContent[data-state='delayed-open'][data-side='right'] {
+  animation-name: slideLeftAndFade;
+}
+.TooltipContent[data-state='delayed-open'][data-side='bottom'] {
+  animation-name: slideUpAndFade;
+}
+.TooltipContent[data-state='delayed-open'][data-side='left'] {
+  animation-name: slideRightAndFade;
+}
+
+.TooltipArrow {
+  fill: white;
+}

@@ -1,0 +1,12 @@
+.title-container {
+  background-color: rgb(75, 159, 153);
+  color: white;
+
+  .title {
+    text-align: center;
+  }
+}
+
+.icon {
+  height: 54px;
+}
