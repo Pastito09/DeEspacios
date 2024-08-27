@@ -8,6 +8,7 @@ export const TextoInicio = () => {
         <div className='col text-start '>
           <div className='img-container'>
             <Image
+              quality={100}
               className='m-1'
               width={900}
               height={450}

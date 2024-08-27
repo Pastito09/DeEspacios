@@ -11,7 +11,8 @@ export const FotosCarrouselGaleria = () => {
           alt={IMAGEN[0].alt}
           height={450}
           width={450}
-          className='w-100'
+          quality={100}
+          className='w-75'
         />
       </Carousel.Item>
       {IMAGENES.map(({ src, alt, key }) => (
@@ -19,6 +20,7 @@ export const FotosCarrouselGaleria = () => {
           <Image
             src={src}
             alt={alt}
+            quality={100}
             height={450}
             width={450}
             className='img-fluid'
@@ -31,7 +33,8 @@ export const FotosCarrouselGaleria = () => {
           alt={IMAGEN[1].alt}
           height={450}
           width={450}
-          className='w-100'
+          quality={100}
+          className='w-75'
         />
       </Carousel.Item>
     </Carousel>
