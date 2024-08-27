@@ -1,39 +1,51 @@
 export const TextoQuienesSomos = () => {
   return (
     <>
-      <p>
-        Nos conocimos en la facultad, allá por el año 2002. Trabajamos
-        como acompañantes terapéuticas para los mismos equipos, en el
-        ámbito público y privado, y empezamos a darle cuerpo a una
-        idea: el acompañamiento terapéutico es mucho mas que un sostén
-        domiciliario, es la posibilidad de abrir espacios que se
-        creían imposibles. Prestar voz y ofrecer recursos a la fuerza
-        del deseo de cambiar, de superarse.
+      <p className='ms-5'>
+        El equipo se crea en el 2011 como equipo de Acompañamientos
+        Terapéuticos y de a poco se fueron incorporando otras
+        vertientes: Atención Psicológica y Psicopedagógica en
+        Consultorios Externos, Espacio de Supervisión grupal e
+        individual, Talleres y actividades abiertas a la comunidad.
       </p>
 
       <blockquote>
-        La limitación no es de la persona, la limitación es el
-        resultado de las barreras que nos pone el mundo.
+        Al comienzo, realizamos las reuniones en una casa, y entre
+        charlas y mates, el equipo fue creciendo. Alquilamos un lugar,
+        y se fueron sumando coordinadores, administrativas, equipo
+        contable, cadete. Abrimos consultorios para atención
+        psicológica, y aula de talleres. Será porque antes de ser
+        colegas, ya éramos amigas, es que el equipo se basa en la
+        transparencia y el cariño. Nos sostenemos y nos cuidamos, y es
+        asi como pensamos y trabajamos. Con cuidado, respeto, y
+        compromiso.
       </blockquote>
 
-      <p>
-        Empezamos a coordinar tratamientos de acompañamientos en el
-        2010, de a poquito fuimos creciendo, e incorporamos a Eli como
-        coordinadora terapéutica. Luego sumamos una orientadora
-        psicopedagógica, y a los referentes en los tratamientos.
-      </p>
-      <p>
-        Encontramos un lugar, que es como nuestra casa. Allí nos
-        reunimos en equipo, y al tiempo, decidimos abrir la atención
-        en consultorios externos: psicología, psicopedagogía,
-        musicoterapia, y el espacio de talleres y recreación, abiertos
-        a la comunidad, como lugar de intercambio e inclusión.
-      </p>
-      <p>
-        Este equipo sigue creciendo, y nos sentimos honradas de poder
-        acompañar a tantas familias, que ponen su confianza en
-        nosotras.
-      </p>
+      <h3 className='ms-5'>Cómo estamos organizadas</h3>
+      <div className='text-start ms-5 mt-4'>
+        <p>
+          El equipo cuenta con una <em>Dirección General</em>, una{' '}
+          <em>Coordinación Terapéutica</em>, una
+          <em>Coordinación Administrativa</em>, y una{' '}
+          <em>Coordinación de Consultorios Externos</em>, trabajando
+          de manera directa con las familias.
+        </p>
+        <p>
+          A su vez, cada tratamiento cuenta con su equipo de
+          Acompañantes Terapéuticos, y un referente asignado, quien
+          hace las devoluciones, y planifica las actividades. Los
+          referentes trabajan en conjunto con la coordinación
+          Terapéutica para pensar estrategias, y proyectar objetivos
+          de trabajo.
+        </p>
+      </div>
+      <blockquote className='fs-5 '>
+        Consideramos fundamental el trabajo en equipo, logrando una
+        comunicación fluida y directa entre todos los sectores, para
+        asegurar un abordaje integral en el armado del Plan
+        Terapéutico.
+      </blockquote>
+
       <div className='mx-auto text-center'>
         <img src='/logo.png' alt='logo' />
       </div>

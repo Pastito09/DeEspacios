@@ -1,0 +1,39 @@
+.hovered-backdrop {
+  position: absolute;
+  inset: 0;
+  background: hsl(0deg 0% 100% / 0.2);
+}
+.mi-lista {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  .mi-lista {
+    flex-direction: column;
+  }
+}
+.mi-lista li {
+  position: relative;
+}
+.mi-lista a {
+  align-items: center;
+  position: relative;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: rgb(169, 50, 38);
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  transition: opacity 500ms;
+}
+.mi-lista a:hover {
+  opacity: 1;
+  font-weight: 700;
+}
+.custom-nav {
+  transition: background-color 0.5s ease;
+}

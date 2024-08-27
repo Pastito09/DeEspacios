@@ -44,18 +44,3 @@ export const BioProfesionales = ({
 };
 
 export default BioProfesionales;
-{
-  /* <Container>
-      <Row>
-        <Col md={3}>
-          <img src={img} />
-        </Col>
-        <Col>
-          <h3 className='bio-title mt-5'>{name}</h3>
-          <Container>
-            <p>{text}</p>
-          </Container>
-        </Col>
-      </Row>
-    </Container> */
-}

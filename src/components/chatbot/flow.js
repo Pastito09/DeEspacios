@@ -13,8 +13,8 @@ export const flow = {
   Pregunta: {
     message: '¿Qué estás buscando?',
     options: [
-      'Busco AT en Domicilio',
-      'Busco AT en Integración en Escuelas',
+      'Busco Acompañante Terapéutico en domicilio',
+      'Busco atención en consultorio',
     ],
     chatDisabled: true,
     path: (params) => {

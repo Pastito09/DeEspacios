@@ -14,11 +14,10 @@ export const Conocenos = () => {
       <Title altText='Click en la foto para ver la descripción'>
         Conocenos
       </Title>
-      <div className='row mt-4' id='grupo'>
-        <Suspense fallback={<Spinner />}>
-          <GridFotos />
-        </Suspense>
-      </div>
+
+      <Suspense fallback={<Spinner />}>
+        <GridFotos />
+      </Suspense>
     </>
   );
 };

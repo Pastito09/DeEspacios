@@ -17,8 +17,11 @@ export const PageFooter = () => {
     <footer className='footer mt-2'>
       <hr />
       <div
-        className='footer-content container'
-        style={{ border: 'solid', borderColor: 'green' }}
+        className='footer-content container mb-2'
+        style={{
+          border: 'solid',
+          borderColor: 'green',
+        }}
       >
         <div className='row text-center mt-2'>
           <div className='col mt-2'>
@@ -78,7 +81,7 @@ export const PageFooter = () => {
         </div>
         <hr />
         <div className='row justify-content-between'>
-          <div className='col-auto '>
+          <div className='col-12 col-md-auto'>
             <p className='h6 ms-3 '>
               <small>
                 Desarrollado por{' '}
@@ -91,7 +94,7 @@ export const PageFooter = () => {
               </small>
             </p>
           </div>
-          <div className='col-auto mb-1'>
+          <div className='col-auto mb-1 d-none d-md-block'>
             <CustomTooltip
               webRef='https://www.facebook.com/deespacios/'
               contentText='Ir al Facebook'
@@ -99,7 +102,7 @@ export const PageFooter = () => {
               <Facebook />
             </CustomTooltip>
             <CustomTooltip
-              webRef='https://www.instagram.com'
+              webRef='https://www.instagram.com/deespacios.centroterapeutico'
               contentText='Ir al Instagram'
             >
               <Instagram />

@@ -8,7 +8,11 @@ export const CustomTooltip = ({ children, webRef, contentText }) => {
     <Tooltip.Provider>
       <Tooltip.Root>
         <Tooltip.Trigger>
-          <Link href={webRef} target='_blank'>
+          <Link
+            href={webRef}
+            target='_blank'
+            className='link-decoration'
+          >
             {children}
           </Link>
         </Tooltip.Trigger>

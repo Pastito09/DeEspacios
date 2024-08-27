@@ -1,7 +1,8 @@
 import CarruselDeFotos from '../carrousel/CarruselDeFotos';
-import './styles.css';
+
 import BannerCentral from '../bannerCentral/BannerCentral';
 import TextoInicio from '../textoPaginaInicio/TextoInicio';
+import TextoQueOfrecemos from '../textoPaginaInicio/TextoQueOfrecemos';
 
 export const PaginaInicial = () => {
   return (
@@ -9,6 +10,7 @@ export const PaginaInicial = () => {
       <CarruselDeFotos />
       <BannerCentral />
       <TextoInicio />
+      <TextoQueOfrecemos />
     </div>
   );
 };

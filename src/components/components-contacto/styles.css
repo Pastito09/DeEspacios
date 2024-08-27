@@ -75,3 +75,7 @@ button {
     transform: translateX(0);
   }
 }
+.link-decoration {
+  text-decoration: none;
+  color: rgb(94, 24, 125);
+}

@@ -13,8 +13,8 @@ export const sendMail = async (formData) => {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Pato <onboarding@resend.dev>',
-      to: ['patriciozhogan@gmail.com'],
+      from: 'Formulario Admisiones <onboarding@resend.dev>',
+      to: ['deespacios@gmail.com'],
       subject: 'Mensaje de admisiones',
       react: EmailTemplate({ nombre, email, telefono, mensaje }),
     });

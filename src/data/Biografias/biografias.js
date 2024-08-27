@@ -5,7 +5,7 @@ import bioCarolina from './bioCarolina';
 import bioElizabeth from './bioElizabeth';
 import bioGladys from './bioGladys';
 import bioJosean from './bioJosean';
-import bioJuan from './bioJuan';
+// import bioJuan from './bioJuan';
 import bioJulieta from './bioJulieta';
 import bioMacarena from './bioMacarena';
 import bioMariaJose from './bioMariaJose';
@@ -18,10 +18,9 @@ export const biografias = [
   bioAilen,
   bioAstrid,
   bioElizabeth,
-  bioJuan,
-  bioMacarena,
+  //bioMacarena,
   bioJulieta,
-  bioMariaJose,
+  //bioMariaJose,
   bioVirginia,
   bioJosean,
   bioPablo,

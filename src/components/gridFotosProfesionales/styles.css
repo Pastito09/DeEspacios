@@ -1,0 +1,37 @@
+.image-container {
+  width: auto; /* Ancho deseado */
+  height: 380px; /* Alto deseado */
+}
+
+.img-profesional {
+  width: auto; /* Para ocupar todo el espacio del contenedor */
+  height: 100%; /* Para ocupar todo el espacio del contenedor */
+  /* Ajusta la imagen manteniendo las proporciones y cubriendo el contenedor */
+}
+@media (max-width: 1000px) {
+  .image-container {
+    height: 280px;
+  }
+  .img-profesional {
+    width: 215px;
+  }
+}
+.nombre-profesional {
+}
+
+.rol-profesional {
+  color: rgb(169, 50, 38);
+  font-size: 15px;
+  font-weight: 600;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos */
+  justify-content: center; /* Centra verticalmente si el contenedor tiene una altura establecida */
+}
+.texto-p {
+  margin: 0; /* Elimina márgenes para que las líneas estén pegadas verticalmente */
+  line-height: 1.5; /* Ajusta el interlineado para que las líneas estén más cerca */
+  text-align: center; /* Centra el texto dentro del párrafo */
+}

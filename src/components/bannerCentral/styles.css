@@ -1,12 +1,27 @@
 .title-container {
   background-color: rgb(75, 159, 153);
-  color: white;
+  color: #f6f5f5;
 
   .title {
     text-align: center;
+    font-family: 'Trebuchet MS';
+    font-weight: 600;
   }
 }
 
-.icon {
-  height: 54px;
+.link-redes {
+  color: #f6f5f5;
+  text-decoration: none;
+}
+.link-redes span:hover {
+  color: #d8cbcb;
+  font-weight: 500;
+}
+@media (max-width: 991px) {
+  .row-direction {
+    flex-direction: column;
+    align-text: center;
+    display: grid;
+    place-items: center;
+  }
 }
