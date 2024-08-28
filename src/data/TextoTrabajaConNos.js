@@ -80,8 +80,8 @@ export const TextoTrabajaConNos = () => {
         ejercer la función.
       </p>
       <h3>
-        <Link href='mailto:recursoshumanosdeespacios@gmail.com'>
-          recursoshumanosdeespacios@gmail.com
+        <Link href='mailto:deespaciosrecursoshumanos@gmail.com'>
+          deespaciosrecursoshumanos@gmail.com
         </Link>
       </h3>
       <p className='fw-semibold mt-4'>Gracias!</p>

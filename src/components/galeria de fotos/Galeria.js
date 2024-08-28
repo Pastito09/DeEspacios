@@ -5,7 +5,7 @@ export const Galeria = () => {
   return (
     <div className='container-fluid '>
       <Title>Galería de fotos</Title>
-      <div className='fs-5 text-center mt-3'>
+      <div className='fs-5 text-center mt-3 section-text'>
         <p>
           Compartimos algunas fotos de los momentos de trabajo en
           equipo, y de los consultorios, para que nos conozcas más de

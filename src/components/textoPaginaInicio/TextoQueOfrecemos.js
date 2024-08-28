@@ -9,15 +9,14 @@ export const TextoQueOfrecemos = () => {
       >
         <div className='h3 mb-3 ' style={{ color: '#3b3a3a' }}>
           <strong>
-            {' '}
-            * <u>¿Qué Ofrecemos?</u> *
+            <u>¿Qué Ofrecemos?</u>
           </strong>
         </div>
         <div>
           <p>
             <Minus size={10} />{' '}
             <span className='fw-semibold'>
-              *Acompañamiento Terapéutico*:
+              Acompañamiento Terapéutico:
             </span>{' '}
             Apoyo personalizado y profesional para personas con
             discapacidades y sus familias.
@@ -27,7 +26,7 @@ export const TextoQueOfrecemos = () => {
           <p>
             <Minus size={10} />{' '}
             <span className='fw-semibold'>
-              *Atención Psicológica y Psicopedagógica*:
+              Atención Psicológica y Psicopedagógica:
             </span>{' '}
             Un espacio individual, de escucha respetuosa y reflexión,
             para trabajar todo tipo de problemáticas, y la elaboración
@@ -38,7 +37,7 @@ export const TextoQueOfrecemos = () => {
           <p>
             <Minus size={10} />{' '}
             <span className='fw-semibold'>
-              *Talleres y Actividades*:
+              Talleres y Actividades:
             </span>{' '}
             Espacios de aprendizaje y crecimiento para fomentar el
             bienestar y la integración.
@@ -48,7 +47,7 @@ export const TextoQueOfrecemos = () => {
           <p>
             <Minus size={10} />{' '}
             <span className='fw-semibold'>
-              *Asesoramiento Familiar*:
+              Asesoramiento Familiar:
             </span>{' '}
             Guía y orientación para afrontar desafíos cotidianos y
             mejorar la calidad de vida.
@@ -56,7 +55,7 @@ export const TextoQueOfrecemos = () => {
         </div>
         <div className='h3 mb-3 mt-4 ' style={{ color: '#3b3a3a' }}>
           <strong>
-            * <u>Nuestro compromiso</u> *
+            <u>Nuestro compromiso</u>
           </strong>
         </div>
         <div className='container-fluid'>

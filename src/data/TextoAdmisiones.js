@@ -3,7 +3,7 @@ import Image from 'next/image';
 export const TextoAdmisiones = () => {
   return (
     <div className='container-fluid text-start'>
-      <div>
+      <div className='section-text'>
         <h4 className='mb-3'>
           En esta sección, te contamos cómo son los pasos para
           solicitar Acompañamiento Terapéutico.

@@ -10,7 +10,7 @@ export const QuienesSomos = () => {
     <>
       <Title>¿Quiénes somos?</Title>
       <div className='container-fluid text-center'>
-        <div className='row'>
+        <div className='row align-items-center'>
           <div className=' col p-5 section-text'>
             <TextoQuienesSomos />
           </div>
@@ -21,7 +21,7 @@ export const QuienesSomos = () => {
               alt='Estructura del equipo'
               height={850}
               width={900}
-              style={{ height: 700, width: 750 }}
+              // style={{ height: 700, width: 750 }}
               quality={100}
             />
           </div>

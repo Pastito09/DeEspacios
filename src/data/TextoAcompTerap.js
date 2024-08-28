@@ -8,17 +8,20 @@ export const TextoAcompTerap = () => {
         alguien que lo necesita?.
       </p>{' '}
       <p>
-        <span className='ms-3'>La</span> vida puede presentar desafíos
-        que requieren apoyo y orientación adicional. El acompañamiento
-        terapéutico es un servicio diseñado para brindar ese apoyo.
-        Aquí te explicamos más sobre este importante servicio y cómo
-        puede marcar una diferencia en la vida de alguien.
+        <span className='ms-3'>La</span>vida puede presentar desafíos
+        que requieren apoyo y orientación adicional. Un acompañante
+        terapéutico es un profesional capacitado que brinda apoyo
+        emocional y asistencia a personas con necesidades específicas,
+        como trastornos de salud mental, discapacidades o problemas de
+        comportamiento.
       </p>
       <p>
-        <span className='ms-3'>Un</span> acompañante terapéutico es un
-        profesional capacitado que brinda apoyo emocional y asistencia
-        a personas con necesidades específicas, como trastornos de
-        salud mental, discapacidades o problemas de comportamiento.
+        <span className='ms-3'>Por</span> Por medio de una relación de
+        confianza, se propone generar, sostener y afianzar los
+        recursos que le permitan a esa persona, el mayor grado de
+        autonomía posible. Teniendo como eje y motor, la relación
+        humana acompañante-acompañado, como medio e instrumento para
+        lograr un estado personal y social de bienestar integral.
       </p>
       <div className='row'>
         <div className='col-2 text-center'>
@@ -32,15 +35,6 @@ export const TextoAcompTerap = () => {
         </div>
         <div className='col'>
           <p>
-            La premisa principal es que la persona logre el mayor
-            grado de autonomía para desarrollarse en su vida con
-            independencia, generando recursos para participar de
-            actividades tanto de disfrute como terapéuticas. Potenciar
-            las habilidades y fortalezas, prestar voz al deseo de
-            superarse y ayudar a la persona a desarrollar habilidades
-            y estrategias para manejar sus desafíos cotidianos.
-          </p>
-          <p>
             <em>
               Trabaja de manera directa con la persona y su entorno,
               en el lugar donde habita, y se desarrolla
@@ -49,13 +43,19 @@ export const TextoAcompTerap = () => {
               procesos de Internación en salud mental.
             </em>
           </p>
+          <p>
+            La premisa principal es que la persona logre el mayor
+            grado de autodeterminación para desarrollarse en su vida
+            con independencia, generando recursos para participar de
+            actividades tanto de disfrute como terapéuticas.
+          </p>
         </div>
       </div>
       <p>
-        <span className='ms-3'>Su</span> función es proporcionar una
-        relación de confianza, teniendo como eje y motor, la relación
-        humana acompañante-acompañado, como medio e instrumento para
-        lograr un estado personal y social de bienestar integral.
+        <span className='ms-3'>Potenciar</span> las habilidades y
+        fortalezas, prestar voz al deseo de superarse y ayudar a la
+        persona a desarrollar habilidades y estrategias para manejar
+        sus desafíos cotidianos.
       </p>
       <p className='fs-5 mt-5'>
         Entre las actividades que puede proponer un acompañamiento,

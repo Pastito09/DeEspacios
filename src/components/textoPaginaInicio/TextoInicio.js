@@ -6,24 +6,23 @@ export const TextoInicio = () => {
     <div className='container-fluid'>
       <div className='row'>
         <div className='col text-start '>
-          <div className='img-container'>
+          <div className='text-center img-container'>
             <Image
               quality={100}
               className='m-1'
-              width={900}
+              width={800}
               height={450}
-              src='/portada.jpg'
+              src='/deespacios.jpg'
               alt='home'
             />
           </div>
         </div>
         <div className='col section-text'>
           <h2 className='text-start mb-3 fw-bold'>
-            * Bienvenidos al Equipo{' '}
+            Bienvenidos al Equipo{' '}
             <span className='text-violet'>
               <em>DeEspacios</em>
-            </span>{' '}
-            *
+            </span>
           </h2>
           <p className='text-start'>
             <span className='fw-semibold ms-5 text-violet'>

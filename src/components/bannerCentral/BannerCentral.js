@@ -20,16 +20,25 @@ export const BannerCentral = () => {
             Espacio Psicológico Integral
           </h1>
         </div>
-        <div className='col col-sm-6  mt-1 '>
-          <div className='row  row-direction'>
-            <div className='col-sm-4 col align-self-center'>
+        <div className='col col-sm-6  mt-1'>
+          <div className='row  row-direction justify-content-center'>
+            <div className='col-sm-4 col  '>
               <Link
                 className='link-redes'
                 href='https://maps.app.goo.gl/i3t9vxi5PmbxPKkBA'
                 target='_blank'
               >
-                <MapPin className='me-2' />
-                <Map /> <span> Pueyrredón 1591 - Banfield Este</span>
+                <div className='row justify-content-center'>
+                  <div className='col-sm-6 col d-flex justify-content-end'>
+                    <MapPin />
+                  </div>
+                  <div className='col-sm-6 col d-flex justify-content-start'>
+                    <Map />
+                  </div>
+                </div>
+                <div className='row '>
+                  <span> Pueyrredón 1591 - Banfield Este</span>
+                </div>
               </Link>
             </div>
 
@@ -38,8 +47,12 @@ export const BannerCentral = () => {
                 href='mailto:deespacios@gmail.com'
                 className='link-redes'
               >
-                <Mail />
-                <span> deespacios@gmail.com</span>
+                <div className='row '>
+                  <Mail />
+                </div>
+                <div className='row'>
+                  <span> deespacios@gmail.com</span>
+                </div>
               </Link>
             </div>
             <div className='col-sm-4 col align-self-center'>
@@ -48,8 +61,12 @@ export const BannerCentral = () => {
                 href='https://instagram.com/deespacios.centroterapeutico'
                 target='_blank'
               >
-                <Instagram />
-                <span> @deespacios.centroterapeutico</span>
+                <div className='row '>
+                  <Instagram />
+                </div>
+                <div className='row '>
+                  <span> @deespacios.centroterapeutico</span>
+                </div>
               </Link>
             </div>
           </div>
