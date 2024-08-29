@@ -8,7 +8,7 @@ export const TextoAcompTerap = () => {
         alguien que lo necesita?.
       </p>{' '}
       <p>
-        <span className='ms-3'>La</span>vida puede presentar desafíos
+        <span className='ms-3'>La</span> vida puede presentar desafíos
         que requieren apoyo y orientación adicional. Un acompañante
         terapéutico es un profesional capacitado que brinda apoyo
         emocional y asistencia a personas con necesidades específicas,
@@ -16,7 +16,7 @@ export const TextoAcompTerap = () => {
         comportamiento.
       </p>
       <p>
-        <span className='ms-3'>Por</span> Por medio de una relación de
+        <span className='ms-3'>Por</span> medio de una relación de
         confianza, se propone generar, sostener y afianzar los
         recursos que le permitan a esa persona, el mayor grado de
         autonomía posible. Teniendo como eje y motor, la relación
