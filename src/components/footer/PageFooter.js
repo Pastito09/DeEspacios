@@ -86,7 +86,7 @@ export const PageFooter = () => {
               <small>
                 Desarrollado por{' '}
                 <Link
-                  href='https://patriciozienkahogan.netlify.app/'
+                  href='https://www.linkedin.com/in/patricio-augusto-zienka-hogan-828484a5/'
                   target='_blank'
                 >
                   Patricio Augusto Zienka Hogan

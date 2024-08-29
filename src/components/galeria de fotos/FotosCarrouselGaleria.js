@@ -107,11 +107,6 @@ const IMAGENES = [
     key: 11,
   },
   {
-    alt: 'Fotos integrantes del grupo 6',
-    src: '/galeria de fotos/12.jpg',
-    key: 12,
-  },
-  {
     alt: 'Cartel Consultorio',
     src: '/galeria de fotos/13a.jpg',
     key: 13,
