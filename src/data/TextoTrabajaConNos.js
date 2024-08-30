@@ -20,11 +20,13 @@ export const TextoTrabajaConNos = () => {
       <br />
       <p>
         Nuestro compromiso es el pilar que sostiene el crecimiento de
-        nuestros pacientes. En DeEspacios trabajamos con mucho corazón
-        y queremos que quienes sean parte de nuestro equipo sientan el
-        mismo amor por la función, compromiso y responsabilidad.
-        Nuestro objetivo es generar un ambiente de trabajo amable y
-        enriquecedor, generar lazos de confianza y sostén compartido.
+        nuestros pacientes. En{' '}
+        <span className='fw-semibold text-violet'>DeEspacios</span>{' '}
+        trabajamos con mucho corazón y queremos que quienes sean parte
+        de nuestro equipo sientan el mismo amor por la función,
+        compromiso y responsabilidad. Nuestro objetivo es generar un
+        ambiente de trabajo amable y enriquecedor, generar lazos de
+        confianza y sostén compartido.
       </p>
       <br />
       <div className='row align-items-center'>
@@ -73,11 +75,11 @@ export const TextoTrabajaConNos = () => {
 
       <hr />
       <p className='mt-4'>
-        DeEspacios se amplía constantemente, e incorporamos
-        acompañantes para cubrir diferentes zonas de Buenos Aires, y
-        en distintas franjas horarias. Por eso, no dudes en enviarnos
-        tu cv, si te has capacitado, y crees que estás listo/a para
-        ejercer la función.
+        <span className='fw-semibold text-violet'>DeEspacios</span> se
+        amplía constantemente, e incorporamos acompañantes para cubrir
+        diferentes zonas de Buenos Aires, y en distintas franjas
+        horarias. Por eso, no dudes en enviarnos tu cv, si te has
+        capacitado, y crees que estás listo/a para ejercer la función.
       </p>
       <h3>
         <Link href='mailto:deespaciosrecursoshumanos@gmail.com'>

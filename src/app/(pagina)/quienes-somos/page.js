@@ -2,7 +2,7 @@ import Title from '@/components/Titulo/Title';
 import TextoQuienesSomos from '@/data/TextoQuienesSomos';
 
 import Conocenos from '@/components/conocenos/Conocenos';
-import Organizadas from '@/components/organizadas/Organizadas';
+
 import Image from 'next/image';
 
 export const QuienesSomos = () => {
@@ -21,12 +21,11 @@ export const QuienesSomos = () => {
               alt='Estructura del equipo'
               height={850}
               width={900}
-              // style={{ height: 700, width: 750 }}
               quality={100}
             />
           </div>
         </div>
-        <Organizadas />
+
         <Conocenos />
       </div>
     </>

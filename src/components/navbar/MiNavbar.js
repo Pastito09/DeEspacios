@@ -11,7 +11,6 @@ import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { useId, useState } from 'react';
 import { NAV_ITEMS } from './navItems';
-import { NavItem } from 'react-bootstrap';
 
 export const MiNavbar = () => {
   const pathname = usePathname();
@@ -77,92 +76,6 @@ export const MiNavbar = () => {
                 </li>
               ))}
             </ul>
-
-            {/* <motion.div key={id} layout={true}>
-                <Link
-                  href='/quienes-somos'
-                  className='nav-link'
-                  style={
-                    pathname === '/quienes-somos'
-                      ? {
-                          backgroundColor: 'red',
-                          color: 'blue',
-                          borderRadius: 20,
-                        }
-                      : {}
-                  }
-                >
-                  ¿Quiénes somos?
-                </Link>
-              </motion.div>
-              <motion.div key={id} layout={true}>
-                <Link
-                  href='/acomp-terapeutico'
-                  className='nav-link'
-                  style={
-                    pathname === '/acomp-terapeutico'
-                      ? {
-                          backgroundColor: 'red',
-                          color: 'blue',
-                          borderRadius: 20,
-                        }
-                      : {}
-                  }
-                >
-                  ¿Qué es el acompañamiento terapéutico?
-                </Link>
-              </motion.div>
-              {/* <Link href='/como-trabajamos' className='nav-link'>
-              ¿Cómo trabajamos?
-            </Link> */}
-            {/* <Link href='/talleres' className='nav-link'>
-              Talleres
-            </Link> 
-              <Link
-                href='/admisiones'
-                className='nav-link'
-                style={
-                  pathname === '/admisiones'
-                    ? {
-                        backgroundColor: 'red',
-                        color: 'blue',
-                        borderRadius: 20,
-                      }
-                    : {}
-                }
-              >
-                Admisiones
-              </Link>
-              <Link
-                href='/trabaja-con-nosotras'
-                className='nav-link'
-                style={
-                  pathname === '/trabaja-con-nosotras'
-                    ? {
-                        backgroundColor: 'red',
-                        color: 'blue',
-                        borderRadius: 20,
-                      }
-                    : {}
-                }
-              >
-                Trabajá Con Nosotras
-              </Link>
-              <Link
-                href='/contacto'
-                className='nav-link'
-                style={
-                  pathname === '/contacto'
-                    ? {
-                        backgroundColor: 'red',
-                        color: 'blue',
-                        borderRadius: 20,
-                      }
-                    : {}
-                }
-              >
-                Contacto
-              </Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
