@@ -37,7 +37,7 @@ export const BannerCentral = () => {
                   </div>
                 </div>
                 <div className='row '>
-                  <span> Pueyrredón 1591 - Banfield Este</span>
+                  <span> Pueyrredón 1591 - Banfield</span>
                 </div>
               </Link>
             </div>
