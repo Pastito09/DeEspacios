@@ -14,7 +14,7 @@ export const sendMail = async (formData) => {
   try {
     const { data, error } = await resend.emails.send({
       from: 'Formulario Admisiones <onboarding@resend.dev>',
-      to: ['patriciozhogan@gmail.com'],
+      to: ['deespacios@gmail.com'],
       subject: 'Mensaje de admisiones',
       react: EmailTemplate({ nombre, email, telefono, mensaje }),
     });
