@@ -16,7 +16,7 @@ export const FormularioAdmisiones = () => {
         action={async (formData) => {
           ref.current?.reset();
           const resp = await sendMail(formData);
-          console.log(typeof resp.id);
+
           if (typeof resp.id === 'string') {
             setIsToastActive(true);
           }

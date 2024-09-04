@@ -6,6 +6,14 @@ export const metadata = {
   title: 'DeEspacios',
   description:
     'DeEspacios es un centro de acompañamiento terapueutico',
+  keywords: [
+    'Psicologia',
+    'Acompañamiento terapeutico',
+    'Banfield',
+    'Buenos Aires',
+    'De espacios',
+    'Espacio psicologico integral',
+  ],
 };
 
 export default function RootLayout({ children }) {
