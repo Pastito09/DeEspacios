@@ -7,7 +7,7 @@ export const flow = {
   Presentacion: {
     transition: { duration: 1000 },
     message:
-      'DeEspacios es un equipo de acompañantes terapéuticas que trabajamos en domicilios y también realizamos apoyo externo a la integración en escuelas.',
+      'DeEspacios es un equipo de acompañantes terapéuticas que trabajamos en domicilios y también realizamos atención en consultorios.',
     path: 'Pregunta',
   },
   Pregunta: {
@@ -113,7 +113,7 @@ export const flow = {
   SinCertificado: {
     transition: { duration: 1000 },
     message:
-      'Si no contas con CUD te invitamos a que te asesores antes de proseguir con nosotras, ya que al tener CUD tendrias todas las prestaciones cubiertas. Sino podes comunicarte y vemos que propuesta hacerte de acuerdo a tu demanda. Envianos mail a deeepsacios@gmail.com',
+      'Si no contas con CUD te invitamos a que te asesores antes de proseguir con nosotras, ya que al tener CUD tendrias todas las prestaciones cubiertas. Sino podes comunicarte y vemos que propuesta hacerte de acuerdo a tu demanda.',
     path: 'SinCertificado2',
   },
   SinCertificado2: {

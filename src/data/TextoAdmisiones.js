@@ -33,7 +33,7 @@ export const TextoAdmisiones = () => {
           <li>Se da inicio al tratamiento.</li>
         </ol>
         <div className='row m-1 align-items-center'>
-          <div className='col-2'>
+          <div className='col-2 d-none d-md-block'>
             <Image
               className='img-fluid'
               src='/equipo rompecabezas.jpg'

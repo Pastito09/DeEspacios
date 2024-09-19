@@ -5,17 +5,15 @@ export const TextoInicio = () => {
   return (
     <div className='container-fluid'>
       <div className='row'>
-        <div className='col text-start '>
-          <div className='text-center img-container'>
-            <Image
-              quality={100}
-              className='m-1'
-              width={800}
-              height={450}
-              src='/deespacios.jpg'
-              alt='home'
-            />
-          </div>
+        <div className='col-12 col-xxl-6 align-self-center text-center mt-1 contenedor'>
+          <Image
+            quality={100}
+            className='object-fit-fill w-100'
+            width={900}
+            height={450}
+            src='/deespacios.jpg'
+            alt='home'
+          />
         </div>
         <div className='col section-text'>
           <h2 className='text-start mb-3 fw-bold'>
@@ -28,7 +26,7 @@ export const TextoInicio = () => {
             <span className='fw-semibold ms-5 text-violet'>
               DeEspacios
             </span>{' '}
-            nace en el 2010, como producto del deseo de armar un
+            nace en el 2011, como producto del deseo de armar un
             equipo humano que acompañe a las personas que viven con
             una discapacidad y a sus familias de manera integral,
             respetuosa y cuidada.

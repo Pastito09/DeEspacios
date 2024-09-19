@@ -30,7 +30,7 @@ export const TextoTrabajaConNos = () => {
       </p>
       <br />
       <div className='row align-items-center'>
-        <div className='col-3 text-center'>
+        <div className='col-3 text-center d-none d-md-block'>
           <Image
             className='img-fluid'
             src='/equipo de amor.jpg'
@@ -39,7 +39,7 @@ export const TextoTrabajaConNos = () => {
             alt='Imagen trabajando en conjunto'
           />
         </div>
-        <div className='col-9 '>
+        <div className='col col-md-9 text-center text-md-start'>
           <p>
             <em>
               Si estás interesado en ejercer la función de acompañante

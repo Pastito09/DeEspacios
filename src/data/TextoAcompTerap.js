@@ -24,7 +24,7 @@ export const TextoAcompTerap = () => {
         lograr un estado personal y social de bienestar integral.
       </p>
       <div className='row'>
-        <div className='col-2 text-center'>
+        <div className='col-2 text-center d-none d-md-block'>
           <Image
             className='img-fluid'
             src='/Logo equipo.png'
