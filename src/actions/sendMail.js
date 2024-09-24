@@ -3,7 +3,7 @@
 import EmailTemplate from '@/components/EmailTemplate';
 import { Resend } from 'resend';
 
-const resend = new Resend('re_XYYKwmUS_H9bSvY1nBjB27WVrqjssERtR');
+const resend = new Resend('re_2gHqkcgs_81ZXw5rjGYCuDoYjdHbUkE41');
 
 export const sendMail = async (formData) => {
   const nombre = formData.get('nombre');
@@ -20,9 +20,9 @@ export const sendMail = async (formData) => {
     });
     if (error) {
       return error;
-    }
+    }       
     return data;
   } catch (error) {
     return error;
   }
-};
+}; 
