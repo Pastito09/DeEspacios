@@ -13,6 +13,7 @@ export const FotosCarrouselGaleria = () => {
           width={450}
           quality={100}
           className='w-75'
+          priority={true}
         />
       </Carousel.Item>
       {IMAGENES.map(({ src, alt, key }) => (
@@ -24,6 +25,7 @@ export const FotosCarrouselGaleria = () => {
             height={450}
             width={450}
             className='img-fluid'
+            priority={true}
           />
         </Carousel.Item>
       ))}
@@ -35,6 +37,7 @@ export const FotosCarrouselGaleria = () => {
           width={450}
           quality={100}
           className='w-75'
+          priority={true}
         />
       </Carousel.Item>
     </Carousel>
