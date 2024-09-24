@@ -1,7 +1,7 @@
 export const TextoQuienesSomos = () => {
   return (
     <>
-      <p className='ms-5'>
+      <p className='mt-2 mb-4 '>
         El equipo se crea en el 2011 como equipo de Acompañamientos
         Terapéuticos y de a poco se fueron incorporando otras
         vertientes: Atención Psicológica y Psicopedagógica en
@@ -21,8 +21,8 @@ export const TextoQuienesSomos = () => {
         compromiso.
       </blockquote>
 
-      <h3 className='ms-5'>Cómo estamos organizadas</h3>
-      <div className='text-start ms-5 mt-4'>
+      <h3 className=''>Cómo estamos organizadas</h3>
+      <div className='text-start mt-4'>
         <p>
           El equipo cuenta con una <em>Dirección General</em>, una{' '}
           <em>Coordinación Terapéutica</em>, una

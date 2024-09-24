@@ -47,11 +47,11 @@ export const Contacto = () => {
           </div>
           <div className='col'>
             <CustomTooltip
-              webRef='https://wa.me/1158254361'
+              webRef='https://wa.me/541134932407'
               contentText='Comunicate por Whatsapp'
             >
               <Phone />
-              <span> Whatsapp</span>
+              <span> 11-3493-2407</span>
             </CustomTooltip>
           </div>
         </div>

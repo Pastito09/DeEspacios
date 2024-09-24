@@ -11,7 +11,7 @@ export const QuienesSomos = () => {
       <Title>¿Quiénes somos?</Title>
       <div className='container-fluid text-center'>
         <div className='row align-items-center'>
-          <div className=' col p-5 section-text'>
+          <div className=' col section-text'>
             <TextoQuienesSomos />
           </div>
           <div className='col-4 d-none d-md-block'>

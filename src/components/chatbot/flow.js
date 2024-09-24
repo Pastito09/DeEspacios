@@ -74,7 +74,7 @@ export const flow = {
           link = 'mailto:deespacios@gmail.com';
           break;
         case 'Por Telefono':
-          link = 'https://wa.me/1158254361';
+          link = 'https://wa.me/541134932407';
           break;
         default:
           return 'chau';
@@ -98,7 +98,7 @@ export const flow = {
           link = 'mailto:deespacios@gmail.com';
           break;
         case 'Por Telefono':
-          link = 'https://wa.me/1158254361';
+          link = 'https://wa.me/541134932407';
           break;
         default:
           return 'chau';

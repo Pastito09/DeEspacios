@@ -15,9 +15,9 @@ export const BannerCentral = () => {
               height={54}
               src='/logo.png'
               alt='logo'
-              className='pe-2 img-fluid'
+              className='me-2 img-fluid'
             />
-            Espacio Psicológico Integral
+            Centro Terapéutico
           </h1>
         </div>
         <div className='col col-sm-6  mt-1'>

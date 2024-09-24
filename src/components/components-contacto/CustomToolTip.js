@@ -12,6 +12,7 @@ export const CustomTooltip = ({ children, webRef, contentText }) => {
             href={webRef}
             target='_blank'
             className='link-decoration'
+            rel='noopener noreferrer'
           >
             {children}
           </Link>
