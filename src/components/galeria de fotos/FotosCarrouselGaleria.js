@@ -4,7 +4,12 @@ import { Carousel } from 'react-bootstrap';
 
 export const FotosCarrouselGaleria = () => {
   return (
-    <Carousel fade variant='dark' indicators={false}>
+    <Carousel
+      fade
+      variant='dark'
+      indicators={false}
+      className='h-100'
+    >
       <Carousel.Item className='text-center'>
         <Image
           src={IMAGEN[0].src}

@@ -1,21 +1,23 @@
 import Title from '@/components/Titulo/Title';
 import BioProfesionales from '@/components/bio-profesionales/BioProfesionales';
 import getBioById from '@/helpers/getBioById';
+import { notFound } from 'next/navigation';
 import React from 'react';
 
 export const Profesionales = ({ params }) => {
-  const { text, name, img, text2, id } = getBioById(
-    params.profesional
-  );
+  const prof = getBioById(params.profesional);
+  if (prof === undefined) {
+    return notFound();
+  }
   return (
     <>
-      <Title>{name.replace(/\(.*?\)/g, '')}</Title>
+      <Title>{prof.name.replace(/\(.*?\)/g, '')}</Title>
       <BioProfesionales
-        text={text}
-        text2={text2}
-        img={img}
-        name={name}
-        id={id}
+        text={prof.text}
+        text2={prof.text2}
+        img={prof.img}
+        name={prof.name}
+        id={prof.id}
       />
     </>
   );
