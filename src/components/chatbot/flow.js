@@ -65,7 +65,7 @@ export const flow = {
   ConObraSocial2: {
     chatDisabled: true,
     message:
-      'Podés comunicarte con nosotras via mail a deespacios@gmail.com o al telefono +54 9 11 58254361 (Lic. Nuria Carolina Gimenez)',
+      'Podés comunicarte con nosotras via mail a deespacios@gmail.com o al telefono +54 9 11 34932407 (Lic. Nuria Carolina Gimenez)',
     options: ['Via Mail', 'Por Telefono'],
     path: (params) => {
       let link = '';
@@ -88,7 +88,7 @@ export const flow = {
   },
   SinObraSocial: {
     message:
-      'En caso de buscar cobertura particular podes comunicarte con nosotras via mail a deespacios@gmail.com o al telefono +54 9 11 58254361 (Lic. Nuria Carolina Gimenez)',
+      'En caso de buscar cobertura particular podes comunicarte con nosotras via mail a deespacios@gmail.com o al telefono +54 9 11 34932407 (Lic. Nuria Carolina Gimenez)',
     chatDisabled: true,
     options: ['Via Mail', 'Por Telefono'],
     path: (params) => {
